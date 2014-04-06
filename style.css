@@ -1,0 +1,19 @@
+body {margin:0;padding:0;border:0;}
+
+.draw-box {
+  position: relative;
+  width: 288px;
+  height: 288px;
+  position: relative;
+  display: block;
+  background: url(http://i.imgur.com/2R9lP4s.png);
+  overflow: hidden;
+}
+.pixel {
+  position: relative;
+  float: left;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: #eee;
+}
