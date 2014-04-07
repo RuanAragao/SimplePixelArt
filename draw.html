@@ -7,9 +7,9 @@
 </head>
 <body>
   <div class="colors">
-    <button id="btnBlack">Black</button>
-    <button id="btnRed">Red</button>
-    <button id="btnErase">Erase</button>
+    <button id="btnBrush" onclick="setColor('brush')">Brush</button>
+    <button id="btnErase" onclick="setColor('erase')">Erase</button>
+    <input id="color" type="color" name="color" onchange="setColor()">
   </div>
   <div id="draw-box" class="draw-box">
   </div>
